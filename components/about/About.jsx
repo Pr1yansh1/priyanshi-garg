@@ -28,28 +28,6 @@ const About = () => {
                   loading="eager"
                 ></Image>
               </div>
-              <div>
-                <h4 className={classes.technologies}>
-                  Some technologies I&apos;ve been using lately:
-                </h4>
-                <ColumnList
-                  list={[
-                    'React',
-                    'Go',
-                    'Angular',
-                    'Node.js',
-                    'Express.js',
-                    'MongoDB',
-                    'TypeScript',
-                    'JavaScript',
-                    'CSS / Sass',
-                    'Java / Spring Boot',
-                    'C++',
-                    'Android Studio',
-                  ]}
-                  numCols={2}
-                />
-              </div>
             </div>
           </div>
         </div>
