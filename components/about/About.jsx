@@ -15,18 +15,6 @@ const About = () => {
           <div className={classes.columns}>
             <div className={`border-highlight ${classes.text}`}>
               <p>
-                I fell in love with coding after my first year of university,
-                during a co-op term at a{' '}
-                <InlineLink href="https://mach85.com/">
-                  local startup
-                </InlineLink>
-                . It was the first time that I genuinely enjoyed going to work,
-                and it made me realize that this is what I wanted to spend my
-                professional life doing. But I didn&apos;t just want to spend it
-                coding, I wanted to spend it getting <em>good</em> at coding,
-                and constantly learning new technologies.
-              </p>
-              <p>
                 With this newfound motivation, I began investing my free time
                 into expanding my skills through{' '}
                 <InlineLink href="#personal-projects" local={true}>
