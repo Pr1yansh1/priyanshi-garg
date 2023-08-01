@@ -40,7 +40,7 @@ const WORKS = [
     ],
   }, 
   {
-    id: 2,
+    id: 3,
     company: 'Delt4',
     href: 'https://delt4.org/',
     title: 'NLP/Machine Learning Engineer Intern',
