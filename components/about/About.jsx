@@ -15,17 +15,13 @@ const About = () => {
           <div className={classes.columns}>
             <div className={`border-highlight ${classes.text}`}>
               <p>
-                This led to my current internship at
-               an AI tutor chatbot powered by OpenAI&apos;s{' '}
-                <InlineLink href="https://openai.com/gpt-4">GPT-4</InlineLink>.
-                I&apos;m incredibly excited to get the chance to work with such
-                cutting-edge technology as the wave of AI sweeps over our world!
+              Some placeholder text lorem ipsum 
               </p>
             </div>
             <div className={classes.rightCol}>
               <div className={`shadow-highlight ${classes.image}`}>
                 <Image
-                  src="./pg-img.jpg"
+                  src="/pg-img.jpg"
                   alt="Image Of Carter"
                   layout="fill"
                   objectFit="cover"
