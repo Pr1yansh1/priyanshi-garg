@@ -39,11 +39,6 @@ const Work = () => {
           <h2 className={`section-header ${classes.workHeader}`}>
             Work Experience
           </h2>
-          <p className={classes.recommendations}>
-            <InlineLink href="https://www.linkedin.com/in/carterjmoore/details/recommendations/">
-              View recommendations from my employers and colleagues
-            </InlineLink>
-          </p>
           <div className={`border-highlight ${classes.container}`}>
             <div className={classes.select}>
               {WORKS.map((work) => {

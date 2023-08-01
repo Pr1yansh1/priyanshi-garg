@@ -6,7 +6,7 @@ const Footer = () => {
     <div className={classes.footer}>
       <a
         className={classes.built}
-        href="https://github.com/carterjmoore/personal-website"
+        href="https://github.com/Pr1yansh1/priyanshi-garg"
         target="_blank"
         rel="noopener noreferrer"
       >
