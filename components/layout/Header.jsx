@@ -47,7 +47,7 @@ const Header = () => {
     <header className={`${classes.header} ${headerClasses}`}>
       <div className={classes.socials}>
         <a
-          href="https://www.linkedin.com/in/carterjmoore/"
+          href="https://www.linkedin.com/in/priyanshi-garg-9680771b1/"
           target="_blank"
           rel="noopener noreferrer"
           className={!showLinkedIn ? classes.hide : ''}
@@ -55,7 +55,7 @@ const Header = () => {
           <FontAwesomeIcon icon={faLinkedin} size="2x" />
         </a>
         <a
-          href="https://github.com/carterjmoore?tab=repositories"
+          href="https://github.com/Pr1yansh1"
           target="_blank"
           rel="noopener noreferrer"
           className={!showGithub ? classes.hide : ''}

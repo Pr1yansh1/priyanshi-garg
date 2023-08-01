@@ -27,14 +27,14 @@ const Home = () => {
           <h1
             className={`${classes.carter} ${!showCarter ? classes.hide : ''}`}
           >
-            Carter Moore.
+            Priyanshi Garg 
           </h1>
           <h1
             className={`${classes.subheader} ${
               !showSubHeader ? classes.hide : ''
             }`}
           >
-            A passionate software engineer.
+            A curious researcher, engineer and dancer.  
           </h1>
           <p
             className={`${classes.paragraph} ${
@@ -42,19 +42,10 @@ const Home = () => {
             }`}
           >
             Currently studying Computer Science at the{' '}
-            <InlineLink href="https://uwaterloo.ca/">
-              University of Waterloo
+            <InlineLink href="https://www.cs.cmu.edu/">
+              Carnegie Mellon University 
             </InlineLink>
-            . I love learning new languages, frameworks, and technologies;
-            lately I&apos;ve been spending my time learning about{' '}
-            <InlineLink href="https://www.khanacademy.org/khan-labs">
-              AI
-            </InlineLink>{' '}
-            and{' '}
-            <InlineLink href="https://developers.google.com/machine-learning/crash-course">
-              Machine Learning
-            </InlineLink>
-            .
+            .I am passionate about AI ethics, learning theory as well as software engineering. In my free time, I like to learn new langauges (both cs and human!), dance, and cook! 
           </p>
         </div>
       </div>
