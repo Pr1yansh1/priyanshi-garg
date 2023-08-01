@@ -15,7 +15,7 @@ const WORKS = [
     ],
   },
   {
-    id: 0,
+    id: 1,
     company: 'CMU AI4ALL',
     href: 'https://www.cmu.edu/pre-college/academic-programs/ai_scholars.html',
     title: 'AI4ALL/AI Scholars Project Leader',
@@ -29,7 +29,7 @@ const WORKS = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     company: 'Insanally Labs, University of Pittsburgh',
     href: 'https://www.insanallylab.com/',
     title: 'Research Developer',
@@ -42,7 +42,7 @@ const WORKS = [
     ],
   },
   {
-    id: 2,
+    id: 3,
     company: 'Delt4',
     href: 'https://delt4.org/',
     title: 'NLP/Machine Learning Engineer Intern',
