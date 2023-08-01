@@ -25,7 +25,7 @@ const About = () => {
             <div className={classes.rightCol}>
               <div className={`shadow-highlight ${classes.image}`}>
                 <Image
-                  src="pg-img.jpg"
+                  src="./pg-img.jpg"
                   alt="Image Of Carter"
                   layout="fill"
                   objectFit="cover"
