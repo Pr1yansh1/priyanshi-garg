@@ -16,8 +16,7 @@ const About = () => {
             <div className={`border-highlight ${classes.text}`}>
               <p>
               Hey there! I'm all about experiences that make a difference. Working at two early-stage start-ups was amazing – not only did I learn a ton, but collaborating with incredible minds allowed us to have a real impact on the projects.
-
-I've also had the pleasure of working with some wonderful research labs and advisors at CMU and UPitt. Machine learning, ethical AI, optimization, and learning theory are where my interests lie.
+              I've also had the pleasure of working with some wonderful research labs and advisors at CMU and UPitt. Machine learning, ethical AI, optimization, and learning theory are where my interests lie.
 
 Join me on this journey as we explore new ideas and make a positive impact with technology! 
               </p>
@@ -25,7 +24,7 @@ Join me on this journey as we explore new ideas and make a positive impact with 
             <div className={classes.rightCol}>
               <div className={`shadow-highlight ${classes.image}`}>
                 <Image
-                  src="/me.jpg"
+                  src="\me.jpg"
                   alt="Image Of Carter"
                   layout="fill"
                   objectFit="cover"
