@@ -15,7 +15,7 @@ const About = () => {
           <div className={classes.columns}>
             <div className={`border-highlight ${classes.text}`}>
               <p>
-              Some placeholder text lorem ipsum 
+              Hey there! I crave experiences that leave a mark on the world. Working at two early-stage start-ups was an absolute blast – not only did I learn invaluable lessons, but I also collaborated with incredible minds, making a real impact on the projects. Additionally, I value innovative ideas and have had the opportunity to work with some wonderful research labs and advisors at CMU as well as UPitt. I am interested in machine learning, ethical AI, optimization, and learning theory!
               </p>
             </div>
             <div className={classes.rightCol}>
