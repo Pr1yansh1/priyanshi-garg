@@ -1,0 +1,115 @@
+@import '../../styles/variables';
+
+$transition-time: 400ms;
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: $header-height;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(12, 27, 51, 0.8);
+  backdrop-filter: blur(6px);
+  padding: 0 10%;
+  z-index: 99;
+  transition-property: transform, opacity, height;
+  transition-duration: $transition-time;
+  transition-timing-function: ease-in-out;
+
+  &.scrolled {
+    box-shadow: 0 10px 30px -10px darken($dark, $amount: 5%);
+    height: $header-scroll-height;
+  }
+
+  &.hide {
+    opacity: 0;
+    transform: translateY(calc(-1rem - $header-height));
+  }
+
+  @media (max-width: $mobile-width) {
+    padding: 0 5%;
+  }
+
+  .socials {
+    display: flex;
+    gap: 2rem;
+    a {
+      transition-property: transform, color, opacity;
+      transition-duration: $transition-time;
+      transition-timing-function: ease-in-out;
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      &.hide {
+        opacity: 0;
+      }
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: baseline;
+
+    li {
+      padding-inline-start: 0;
+      margin-bottom: 0;
+      margin-right: 2rem;
+      transition-property: transform, opacity;
+      transition-duration: $transition-time;
+      transition-timing-function: ease-in-out;
+
+      &:last-child {
+        margin: 0;
+      }
+
+      &:hover {
+        transform: translateY(-2px);
+      }
+
+      &::marker {
+        content: '';
+      }
+
+      &.hide {
+        opacity: 0;
+      }
+    }
+  }
+
+  a,
+  .burger {
+    text-decoration: none;
+    font-size: 1rem;
+    color: $shade100;
+    transition-property: transform, color, opacity;
+    transition-duration: $transition-time;
+    transition-timing-function: ease-in-out;
+
+    &:hover,
+    &:active,
+    &.active {
+      color: $highlight;
+    }
+  }
+
+  .burger {
+    font-size: 2rem;
+
+    &:hover,
+    &:active,
+    &.active {
+      cursor: pointer;
+      transform: translateY(-2px);
+    }
+
+    &.hide {
+      opacity: 0;
+    }
+  }
+}

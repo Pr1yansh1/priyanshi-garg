@@ -1,0 +1,65 @@
+@import '../../styles/variables';
+
+.about {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  @media (max-width: $mobile-width) {
+    margin-bottom: 8rem;
+  }
+}
+
+.wrapper {
+  height: min-content;
+}
+
+.columns {
+  display: grid;
+  grid-template-columns: 3fr 2fr;
+  gap: 50px;
+
+  @media (max-width: $mobile-width) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.text {
+  padding: 1rem;
+
+  p {
+    margin-bottom: 1rem;
+    line-height: 1.5rem;
+    color: $shade300;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.rightCol {
+  @media (max-width: $mobile-width) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.image {
+  aspect-ratio: 16 / 9;
+  position: relative;
+  border-radius: $border-radius;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+
+  @media (max-width: $mobile-width) {
+    margin-top: 3rem;
+  }
+}
+
+.technologies {
+  color: $shade200;
+  margin-bottom: 1rem;
+}

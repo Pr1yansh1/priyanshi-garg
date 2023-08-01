@@ -1,0 +1,100 @@
+@import url('https://rsms.me/inter/inter.css');
+@import './variables';
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  color: $shade100;
+  background-color: $dark;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', sans-serif;
+}
+
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: 'Inter var', sans-serif;
+  }
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+ul {
+  padding-left: 1.5ch;
+  li {
+    color: $shade300;
+    margin-bottom: 0.5rem;
+    list-style-type: '\27A2';
+    padding-inline-start: 1ch;
+
+    &::marker {
+      color: $highlight;
+    }
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.layout {
+  margin: 3rem auto;
+  width: 90%;
+  max-width: 60rem;
+}
+
+.section-header {
+  margin-bottom: 1rem;
+  font-size: 2.5rem;
+}
+
+.scrollTo {
+  display: block;
+  position: relative;
+  top: -120px;
+  visibility: hidden;
+}
+
+.border-highlight {
+  box-shadow: 0 10px 30px -15px $highlight;
+  border-radius: $border-radius;
+  border-width: thin;
+  border-color: $highlight;
+  border-style: solid;
+  overflow: hidden;
+}
+
+.shadow-highlight {
+  box-shadow: 0 10px 30px -15px $highlight;
+}
+
+// Scrollbar
+html {
+  overflow: overlay;
+  scrollbar-width: thin;
+  scrollbar-color: $shade400 transparent;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $shade400;
+  border: 3px solid $dark;
+  border-radius: 10px;
+}
