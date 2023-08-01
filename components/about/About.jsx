@@ -15,10 +15,50 @@ const About = () => {
           <div className={classes.columns}>
             <div className={`border-highlight ${classes.text}`}>
               <p>
-              Hey there! I'm all about experiences that make a difference. Working at two early-stage start-ups was amazing – not only did I learn a ton, but collaborating with incredible minds allowed us to have a real impact on the projects.
-              I've also had the pleasure of working with some wonderful research labs and advisors at CMU and UPitt. Machine learning, ethical AI, optimization, and learning theory are where my interests lie.
-
-Join me on this journey as we explore new ideas and make a positive impact with technology! 
+                I fell in love with coding after my first year of university,
+                during a co-op term at a{' '}
+                <InlineLink href="https://mach85.com/">
+                  local startup
+                </InlineLink>
+                . It was the first time that I genuinely enjoyed going to work,
+                and it made me realize that this is what I wanted to spend my
+                professional life doing. But I didn&apos;t just want to spend it
+                coding, I wanted to spend it getting <em>good</em> at coding,
+                and constantly learning new technologies.
+              </p>
+              <p>
+                With this newfound motivation, I began investing my free time
+                into expanding my skills through{' '}
+                <InlineLink href="#personal-projects" local={true}>
+                  personal projects
+                </InlineLink>{' '}
+                and{' '}
+                <InlineLink href="https://udemy.com/">
+                  online courses
+                </InlineLink>
+                . After interning at{' '}
+                <InlineLink href="https://populusplus.com/">
+                  another local startup
+                </InlineLink>
+                , I decided to transfer to a
+                <InlineLink href="https://uwaterloo.ca/">
+                  larger university
+                </InlineLink>{' '}
+                out of province, in search of new opportunities.
+              </p>
+              <p>
+                This led to my current internship at{' '}
+                <InlineLink href="https://www.khanacademy.org/">
+                  Khan Academy
+                </InlineLink>
+                , where I&apos;m working to develop{' '}
+                <InlineLink href="https://www.khanacademy.org/khan-labs">
+                  Khanmigo
+                </InlineLink>
+                , an AI tutor chatbot powered by OpenAI&apos;s{' '}
+                <InlineLink href="https://openai.com/gpt-4">GPT-4</InlineLink>.
+                I&apos;m incredibly excited to get the chance to work with such
+                cutting-edge technology as the wave of AI sweeps over our world!
               </p>
             </div>
             <div className={classes.rightCol}>
