@@ -15,35 +15,8 @@ const About = () => {
           <div className={classes.columns}>
             <div className={`border-highlight ${classes.text}`}>
               <p>
-                With this newfound motivation, I began investing my free time
-                into expanding my skills through{' '}
-                <InlineLink href="#personal-projects" local={true}>
-                  personal projects
-                </InlineLink>{' '}
-                and{' '}
-                <InlineLink href="https://udemy.com/">
-                  online courses
-                </InlineLink>
-                . After interning at{' '}
-                <InlineLink href="https://populusplus.com/">
-                  another local startup
-                </InlineLink>
-                , I decided to transfer to a
-                <InlineLink href="https://uwaterloo.ca/">
-                  larger university
-                </InlineLink>{' '}
-                out of province, in search of new opportunities.
-              </p>
-              <p>
-                This led to my current internship at{' '}
-                <InlineLink href="https://www.khanacademy.org/">
-                  Khan Academy
-                </InlineLink>
-                , where I&apos;m working to develop{' '}
-                <InlineLink href="https://www.khanacademy.org/khan-labs">
-                  Khanmigo
-                </InlineLink>
-                , an AI tutor chatbot powered by OpenAI&apos;s{' '}
+                This led to my current internship at
+               an AI tutor chatbot powered by OpenAI&apos;s{' '}
                 <InlineLink href="https://openai.com/gpt-4">GPT-4</InlineLink>.
                 I&apos;m incredibly excited to get the chance to work with such
                 cutting-edge technology as the wave of AI sweeps over our world!
