@@ -5,13 +5,13 @@ import ShowOnScroll from '../ui/ShowOnScroll';
 import SelectButton from './SelectButton';
 import SelectedWork from './SelectedWork';
 import classes from './Work.module.scss';
-import WORKS from './WorkData';
+import TEACHING from './WorkData';
 
 const TRANSITION_TIME = 300;
 
-const Work = () => {
-  const [selectedWork, setSelectedWork] = useState(WORKS[0]);
-  const [selectedButtonId, setSelectedButtonId] = useState(WORKS[0].id);
+const Teaching = () => {
+  const [selectedWork, setSelectedWork] = useState(TEACHING[0]);
+  const [selectedButtonId, setSelectedButtonId] = useState(TEACHING[0].id);
   const [hideSelection, setHideSelection] = useState(false);
   const [animationTimeout, setAnimationTimeout] = useState(undefined);
 
@@ -37,11 +37,11 @@ const Work = () => {
         <div className={classes.wrapper}>
           <ScrollTo id="work" />
           <h2 className={`section-header ${classes.workHeader}`}>
-            Work Experience
+            Teaching Experience
           </h2>
           <div className={`border-highlight ${classes.container}`}>
             <div className={classes.select}>
-              {WORKS.map((work) => {
+              {TEACHING.map((work) => {
                 return (
                   <SelectButton
                     work={work}
@@ -65,4 +65,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Teaching;
