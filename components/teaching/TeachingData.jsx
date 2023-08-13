@@ -1,5 +1,17 @@
 const TEACHING = [
   {
+    id: 1,
+    company: 'CS Department, Carnegie Mellon',
+    href: 'https://www.cs.cmu.edu/',
+    title: 'Teaching Assistant',
+    date: 'Jan -- May 2022',
+    bullets: [
+      "Teaching Assistant for (15-151) Discrete Math", 
+      "Conducted one-on-one tutoring sessions for 3 freshmen computer science students to support their learning", 
+      "Collaborated with undergraduate deans to introduce curriculum changes", 
+    ],
+  },
+  {
     id: 0,
     company: 'AI Scholars, Carnegie Mellon',
     href: 'https://www.cmu.edu/pre-college/academic-programs/ai_scholars.html',
@@ -11,18 +23,6 @@ const TEACHING = [
       "Delivered lectures on fundamental ML topics, including Convolutional Neural Networks (CNNs), empowering students with essential knowledge in image classification techniques.",
       "Mentored and guided two groups of five students each, fostering a hands-on learning environment where participants constructed their own image classification projects on architecture and flower-type classification.",
       "Facilitated the presentation of group projects at the program’s conclusion, celebrating the achievements of the students and showcasing their innovative solutions in AI and ML.", 
-    ],
-  },
-  {
-    id: 1,
-    company: 'CS Department, Carnegie Mellon',
-    href: 'https://www.cs.cmu.edu/',
-    title: 'Teaching Assistant',
-    date: 'Jan -- May 2022',
-    bullets: [
-      "Teaching Assistant for (15-151) Discrete Math", 
-      "Conducted one-on-one tutoring sessions for 3 freshmen computer science students to support their learning", 
-      "Collaborated with undergraduate deans to introduce curriculum changes", 
     ],
   },
 ].reverse();
