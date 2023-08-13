@@ -1,4 +1,4 @@
-const WORKS = [
+const RESEARCH = [
   {
     id: 0,
     company: 'CMU Machine Learning Department',
@@ -29,4 +29,4 @@ const WORKS = [
   },
 ].reverse();
 
-export default WORKS;
+export default RESEARCH;

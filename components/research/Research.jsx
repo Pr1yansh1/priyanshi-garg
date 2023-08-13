@@ -3,29 +3,29 @@ import InlineLink from '../ui/InlineLink';
 import ScrollTo from '../ui/ScrollTo';
 import ShowOnScroll from '../ui/ShowOnScroll';
 import SelectButton from './SelectButton';
-import SelectedWork from './SelectedWork';
-import classes from './Work.module.scss';
-import WORKS from './WorkData';
+import SelectedResearch from './SelectedResearch';
+import classes from './Research.module.scss';
+import RESEARCH from './ResearchData';
 
 const TRANSITION_TIME = 300;
 
-const Work = () => {
-  const [selectedWork, setSelectedWork] = useState(WORKS[0]);
-  const [selectedButtonId, setSelectedButtonId] = useState(WORKS[0].id);
+const Research = () => {
+  const [selectedResearch, setSelectedResearch] = useState(RESEARCH[0]);
+  const [selectedButtonId, setSelectedButtonId] = useState(RESEARCH[0].id);
   const [hideSelection, setHideSelection] = useState(false);
   const [animationTimeout, setAnimationTimeout] = useState(undefined);
 
-  const onWorkSelected = (work) => {
-    if (selectedWork === work) {
+  const onResearchSelected = (research) => {
+    if (selectedResearch === research) {
       return;
     }
     clearTimeout(animationTimeout);
     setHideSelection(true);
-    setSelectedButtonId(work.id);
+    setSelectedButtonId(research.id);
     setAnimationTimeout(
       setTimeout(() => {
         clearTimeout(animationTimeout);
-        setSelectedWork(work);
+        setSelectedResearch(research);
         setHideSelection(false);
       }, TRANSITION_TIME)
     );
@@ -33,21 +33,21 @@ const Work = () => {
 
   return (
     <ShowOnScroll>
-      <div className={`layout ${classes.work}`}>
+      <div className={`layout ${classes.research}`}>
         <div className={classes.wrapper}>
-          <ScrollTo id="work" />
-          <h2 className={`section-header ${classes.workHeader}`}>
-            Work Experience
+          <ScrollTo id="research" />
+          <h2 className={`section-header ${classes.researchHeader}`}>
+            Research Experience
           </h2>
           <div className={`border-highlight ${classes.container}`}>
             <div className={classes.select}>
-              {WORKS.map((work) => {
+              {RESEARCH.map((research) => {
                 return (
                   <SelectButton
-                    work={work}
+                    research={research}
                     selectedId={selectedButtonId}
-                    onClick={onWorkSelected}
-                    key={work.id}
+                    onClick={onResearchSelected}
+                    key={research.id}
                   />
                 );
               })}
@@ -56,7 +56,7 @@ const Work = () => {
               className={`${classes.info} ${hideSelection ? classes.hide : ''}`}
               style={{ transition: `opacity ease-in-out ${TRANSITION_TIME}ms` }}
             >
-              <SelectedWork work={selectedWork} />
+              <SelectedResearch research={selectedResearch} />
             </div>
           </div>
         </div>
@@ -65,4 +65,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Research;

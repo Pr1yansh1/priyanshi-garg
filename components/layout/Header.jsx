@@ -20,6 +20,7 @@ const Header = () => {
   const [showHome, setShowHome] = useState(false);
   const [showAbout, setShowAbout] = useState(false);
   const [showWork, setShowWork] = useState(false);
+  const [showResearch, setShowResearch] = useState(false);
   const [showTeaching, setShowTeaching] = useState(false);
   const [showProjects, setShowProjects] = useState(false);
 
@@ -33,6 +34,7 @@ const Header = () => {
     setTimeout(() => setShowHome(true), 1000);
     setTimeout(() => setShowAbout(true), 1200);
     setTimeout(() => setShowWork(true), 1400);
+    setTimeout(() => setShowResearch(true), 1400);
     setTimeout(() => setShowTeaching(true), 1400);
     setTimeout(() => setShowProjects(true), 1600);
   }, []);
@@ -76,6 +78,9 @@ const Header = () => {
             </li>
             <li className={!showWork ? classes.hide : ''}>
               <Link href="#work">Engineering</Link>
+            </li>
+            <li className={!showResearch ? classes.hide : ''}>
+              <Link href="#research">Research</Link>
             </li>
             <li className={!showTeaching ? classes.hide : ''}>
               <Link href="#teaching">Teaching</Link>
