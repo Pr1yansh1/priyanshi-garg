@@ -37,7 +37,7 @@ const Work = () => {
         <div className={classes.wrapper}>
           <ScrollTo id="work" />
           <h2 className={`section-header ${classes.workHeader}`}>
-            Engineering Experience
+            Work Experience
           </h2>
           <div className={`border-highlight ${classes.container}`}>
             <div className={classes.select}>

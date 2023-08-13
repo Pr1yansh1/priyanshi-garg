@@ -75,7 +75,7 @@ const Header = () => {
               <Link href="#about">About</Link>
             </li>
             <li className={!showWork ? classes.hide : ''}>
-              <Link href="#work">Work</Link>
+              <Link href="#work">Engineering</Link>
             </li>
             <li className={!showTeaching ? classes.hide : ''}>
               <Link href="#teaching">Teaching</Link>
