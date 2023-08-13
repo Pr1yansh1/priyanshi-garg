@@ -3,8 +3,6 @@ import Footer from '../components/footer/Footer';
 import Home from '../components/home/Home';
 import Projects from '../components/projects/Projects';
 import Work from '../components/work/Work'; 
-import Research from '../components/research/Work'
-import Teaching from '../components/teaching/Work'
 import Head from 'next/head';
 import Modal from '../components/ui/Modal';
 
@@ -23,8 +21,6 @@ export default function Index() {
       <Home />
       <About />
       <Work />
-      <Research />
-      <Teaching />
       <Projects />
       <Footer />
     </>
