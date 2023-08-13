@@ -43,9 +43,9 @@ const Home = () => {
           >
             Currently studying Computer Science at the{' '}
             <InlineLink href="https://www.cs.cmu.edu/">
-              Carnegie Mellon University 
+              Carnegie Mellon University
             </InlineLink>
-            .I am passionate about AI ethics, learning theory as well as software engineering. In my free time, I like to learn new langauges (both cs and human!), dance, and cook! 
+            . I am passionate about AI ethics, learning theory as well as software engineering. In my free time, I like to learn new langauges (both cs and human!), dance, and cook! 
           </p>
         </div>
       </div>
