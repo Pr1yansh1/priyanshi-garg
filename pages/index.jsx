@@ -21,6 +21,8 @@ export default function Index() {
       <Home />
       <About />
       <Work />
+      <Research />
+      <Teaching />
       <Projects />
       <Footer />
     </>
