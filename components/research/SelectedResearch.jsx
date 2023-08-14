@@ -1,5 +1,5 @@
-import InlineLink from '../ui/InlineLink';
 import classes from './SelectedResearch.module.scss';
+import InlineLink from '../ui/InlineLink' 
 
 const SelectedResearch = (props) => {
   return (
@@ -10,8 +10,8 @@ const SelectedResearch = (props) => {
       </h3>
       <em>{props.research.date}</em>
       <ul>
-        {props.research.bullets.map((bullet) => {
-          return <li key={bullet}>{bullet}</li>;
+        {props.research.bullets.map((bullet, index) => {
+          return <li key={index}>{bullet}</li>;
         })}
       </ul>
     </div>
