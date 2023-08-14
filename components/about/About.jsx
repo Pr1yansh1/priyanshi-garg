@@ -24,8 +24,6 @@ const About = () => {
                   src="/pg-img.jpg"
                   alt="Priyanshi Garg"
                   layout="responsive"
-                  width={2677} // Original width of the image
-                  height={3238} // Original height of the image
                   objectFit="contain" // This will make sure the image fits within the dimensions
                   loading="eager"
                 ></Image>
