@@ -24,7 +24,7 @@ const About = () => {
                   src="/pg-img.jpg"
                   alt="Priyanshi Garg"
                   layout="fill"
-                  objectFit="cover"
+                  objectFit="contain"
                   loading="eager"
                 ></Image>
               </div>
