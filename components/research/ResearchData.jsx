@@ -1,6 +1,21 @@
 const RESEARCH = [
   {
     id: 0,
+    company: 'CMU Reliable Autonomous Systems Lab',
+    href: 'https://www.cs.cmu.edu/~nihars/',
+    title: 'Undergraduate Researcher',
+    date: 'Sep 2022 - Present',
+    bullets: [
+ "Conducting cutting-edge research in the Machine Learning Department under the guidance of Dr. Nihar Shah as an Undergraduate Researcher, focused on automating paper-reviewer assignments for academic journals.",
+"Developed and tested novel online matching algorithms, informed by rigorous research, to revolutionize the review process, improve efficiency, and reduce bias.",
+"Utilized Python, APIs, and web-scraping techniques to construct a novel dataset of paper submissions and reviews, providing valuable research materials for the algorithmic assignment process.",
+"Demonstrated expertise in theoretical aspects by designing and proving the efficacy of various matching algorithms, ensuring optimal reviewer assignments based on similarity scores.",
+"Presented research findings in a poster presentation at CMU’s research symposium, sharing insights and contributions to the field of automated paper-reviewer assignments in academic journals.",
+"Will continue working on improving initial results and preparing for publication, aiming to contribute novel insights to the field of automated paper-reviewer assignments in academic journals.",
+    ],
+  }, 
+  {
+    id: 1,
     company: 'CMU Machine Learning Department',
     href: 'https://www.cs.cmu.edu/~nihars/',
     title: 'Undergraduate Researcher',
@@ -15,7 +30,7 @@ const RESEARCH = [
     ],
   },
   {
-    id: 1,
+    id: 2,
     company: 'Insanally Labs, University of Pittsburgh',
     href: 'https://www.insanallylab.com/',
     title: 'Research Developer',

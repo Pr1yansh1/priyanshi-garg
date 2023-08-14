@@ -2,18 +2,18 @@ import classes from './SelectButton.module.scss';
 
 const SelectButton = (props) => {
   const onClick = () => {
-    props.onClick(props.work);
+    props.onClick(props.research);
   };
 
   return (
     <div
       onClick={onClick}
-      key={props.work.id}
+      key={props.research.id}
       className={`${classes['select-button']} ${
-        props.work.id === props.selectedId ? classes.selected : ''
+        props.research.id === props.selectedId ? classes.selected : ''
       }`}
     >
-      {props.work.company}
+      {props.research.company}
     </div>
   );
 };
